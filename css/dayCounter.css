@@ -1,0 +1,12 @@
+ul, li {
+    list-style-type: none;
+    margin-left:0px;
+}
+
+table {
+    font-weight:bold;
+}
+
+th {
+    font-size:25px;
+}

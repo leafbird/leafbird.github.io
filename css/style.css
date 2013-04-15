@@ -1,0 +1,131 @@
+#FbBody  
+{
+    margin-left:0;
+    width:620px;
+    font-size:9pt;
+}
+
+.writerImg
+{
+    float:left;
+}
+
+.sectionRight
+{
+    margin-left:60px;
+}
+
+.commentRight
+{
+    float:left;
+    padding-top:5px;
+    width:480px;
+}
+
+.uploadPhoto
+{
+    width:540px;
+}
+
+#fbHeader
+{
+    margin-top:10px;
+    margin-right:10px;
+    color:#202020;
+}
+
+/* ------------------------------------------------------- */
+
+.section
+{
+    line-height:160%;
+    border-top-color: #E9E9E9;
+    border-top-style: solid;
+    border-top-width: 1px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.bottomSpace
+{
+    background:#edeff4;
+}
+
+.section ul
+{
+    padding-left:0px;
+    margin-left:0px;
+}
+
+.section li
+{
+    background:#edeff4;
+    list-style: none;
+    border-top-color: #E9E9E9;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-bottom-color: #D2D9E7;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding-top:1px;
+    padding-left:5px;
+    padding-right:1px;
+    padding-bottom:1px;
+}
+
+.writerName, .title
+{
+    color:#164e8b;
+    font-weight:bold;
+}
+
+.orgLink
+{
+    margin-left:30;
+}
+
+.writeBody
+{
+    padding-top:10;
+}
+
+.writeTime
+{
+    margin-top:5;
+    color:#555;
+}
+
+.commentImg
+{
+    float:left;
+    margin-top:5px;
+    margin-left:5px;
+    margin-right:5px;
+    margin-bottom:5px;
+}
+
+.linkImg
+{
+    float:left;
+    margin-top:5px;
+    margin-left:5px;
+    margin-right:5px;
+    margin-bottom:5px;
+    width:90px;
+}
+
+.linkRight
+{
+    margin-left:95px;
+}
+
+.clearBoth
+{
+    clear:both;
+}
+
+.margin10
+{
+    margin-top:5px;
+    margin-bottom:5px;
+}
