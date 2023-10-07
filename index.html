@@ -1,97 +1,102 @@
 ﻿<!doctype html>
 <html>
+
 <head>
     <title>leafbird</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link class="include" rel="stylesheet" type="text/css" href="./style.css" />
     <link class="include" rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
-    <script src="./js/jquery.min.js" type="text/javascript"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Roboto:wght@700&display=swap" rel="stylesheet">
     <script src="./js/bootstrap.min.js" type="text/javascript"></script>
 </head>
 
 <body>
     <div class="container">
-        <div class="tab-content">
 
-            <!--about-->
-            <div class="tab-pane active" id="about">
-                <div style="padding-top: 30px;"></div>
-                <div class="row">
-                    <blockquote class="offset1 span8">
-                        필자에게 <strong class="text-info">왜 프로그래밍을 하느냐고 묻는다면, 주저없이 '재미(fun)'라고 답할 것이다.</strong>
+        <div class="head-buffer">
+        </div>
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2 col-md-8 offset-md-2 rounded intro">
+                <figure class="">
+                    <blockquote class="margin10">
+                        필자에게 <strong class="text-primary">왜 프로그래밍을 하느냐고 묻는다면, 주저없이 '재미(fun)'라고 답할 것이다.</strong>
                         한 가지 덧붙이자면, 만약 프로그래밍보다 더 재미있는 일이 있다고 생각한다면, 역시 주저함 없이 프로그래밍 대신 그 일에 몰두할 것이다. 재미없는
                         일을 억지로 하면서 보내기에는 인생은 너무 짧지 않는가.
-                     <small class="text-right">[마이크로 소프트웨어 잡지 특집 컬럼 - 이만용 리눅스 코리아 CTO의 글 중...]
-                     </small>
                     </blockquote>
-                </div>
-                <div class="row">
-                    <div class="span2 offset1 margin10">
-                        <div style="padding-top: 20px;"></div>
-                        <img class="img-rounded" src="./image/profile_new.jpg" width="140" />
-                    </div>
-                    <div class="span6">
-                        <ul class="inline">
-                            <li>
-                                <h2>leafbird.</h2>
-                            </li>
-                            <li>
-                                <small>Online Game Server Programmer.</small>
-                            </li>
-                        </ul>
-                        <table class="table">
-                            <tr>
-                                <td>Blog - Dev</td>
-                                <td><a href="http://leafbird.github.io/devnote" target="_blank">http://leafbird.github.io/devnote</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Blog - Other</td>
-                                <td><a href="http://leafbird.github.io/blog" target="_blank">http://leafbird.github.io/blog</a>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td colspan="2">
-                                    <img src="image/dotnet.svg" style="width: 32px" />
-                                    &nbsp; &nbsp;
-
-                                    <img src="image/visualstudio-color.svg" style="width: 32px" />
-                                    &nbsp; &nbsp;
-
-                                    <img src="image/visualstudiocode-color.svg" style="width: 32px" />
-                                    &nbsp; &nbsp;
-
-                                    <img src="image/unity.svg" style="width: 32px" />
-                                    &nbsp; &nbsp;
-
-                                    <img src="image/slack-color.svg" style="width: 32px" />
-                                    &nbsp; &nbsp;
-
-                                    <a href="http://www.github.com/leafbird" target="_blank">
-                                        <img src="image/github.png" alt="www.github.com/leafbird" style="width: 32px"></a>
-                                    &nbsp; &nbsp;
-
-                                    <a href="http://www.github.com/StudioBside" target="_blank">
-                                        <img src="image/bside_logo.jpg" alt="www.github.com/StudioBside" style="width: 42px"></a>
-
-                                </td>
-                            </tr>
-                        </table>
-
-                    </div>
-                </div>
+                    <div class="base-buffer"></div>
+                    <figcaption class="blockquote-footer">
+                        [마이크로 소프트웨어 잡지 특집 컬럼 - 이만용 리눅스 코리아 CTO의 글 중...]
+                    </figcaption>
+                </figure>
             </div>
+        </div>
 
-            <!--twitter-->
-            <div class="tab-pane" id="twitter">
-                <div class="row">
-                    <div class="offset2 margin10">
-                        <a class="twitter-timeline" data-lang="ko" href="https://twitter.com/leafbird_tw" data-width="600">Tweets by leafbird_tw</a> 
-                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                    </div>
-                </div>
+        <div class="base-buffer"></div>
+
+        <div class="row">
+            <div class="col-lg-2 offset-lg-2 col-md-3 offset-md-2">
+                <img class="rounded profile-image" src="./image/profile_new.jpg" width="140" />
             </div>
+            <div class="col-lg-6 col-md-8 offset-md-2 offset-lg-0">
+                <ul class="list-inline profile-title">
+                    <li class="list-inline-item">
+                        <h2>leafbird.</h2>
+                    </li>
+                    <li class="list-inline-item">
+                        <small>Online Game Server Programmer.</small>
+                    </li>
+                </ul>
+                <table class="table">
+                    <tr>
+                        <td>Blog - Dev</td>
+                        <td><a href="http://leafbird.github.io/devnote"
+                                target="_blank">http://leafbird.github.io/devnote</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Blog - Other</td>
+                        <td><a href="http://leafbird.github.io/blog" target="_blank">http://leafbird.github.io/blog</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <img src="image/dotnet.svg" style="width: 32px" />
+                            &nbsp; &nbsp;
+
+                            <img src="image/visualstudio-color.svg" style="width: 32px" />
+                            &nbsp; &nbsp;
+
+                            <img src="image/visualstudiocode-color.svg" style="width: 32px" />
+                            &nbsp; &nbsp;
+
+                            <img src="image/vim-color.svg" style="width: 32px" />
+                            &nbsp; &nbsp;
+
+                            <img src="image/unity.svg" style="width: 32px" />
+                            &nbsp; &nbsp;
+
+                            <img src="image/slack-color.svg" style="width: 32px" />
+                            &nbsp; &nbsp;
+
+                            <a href="http://www.github.com/leafbird" target="_blank">
+                                <img src="image/github.png" alt="www.github.com/leafbird" style="width: 32px"></a>
+                            &nbsp; &nbsp;
+
+                            <a href="http://www.github.com/StudioBside" target="_blank">
+                                <img src="image/bside_logo.png" alt="www.github.com/StudioBside"
+                                    style="width: 42px"></a>
+
+                        </td>
+                    </tr>
+                </table>
+
+                </div>
         </div>
     </div>
 </body>
+
 </html>
