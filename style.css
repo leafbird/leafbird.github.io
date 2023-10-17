@@ -36,7 +36,15 @@
 .badge-symbol {
     width: 32px;
     /* 좁은 넓이로 볼 떄 줄바뀜되면 여백을 만들어 주기 위함 */
-    margin-bottom: 8px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.badge-bside {
+    width: 42px;
+    /* 좁은 넓이로 볼 떄 줄바뀜되면 여백을 만들어 주기 위함 */
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
 
 @media ( min-width : 768px) {
